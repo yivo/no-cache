@@ -1,6 +1,6 @@
 # no-cache
 
-The gem provides easy way to fully disable HTTP cache in Rails controllers.
+A gem providing way to make HTTP clients stop caching responses.
 
 ## Usage
 
