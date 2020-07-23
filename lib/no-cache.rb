@@ -5,7 +5,7 @@ module NoCache
   HEADERS = {
     "Cache-Control" => "private, no-store, no-cache, max-age=0, must-revalidate, post-check=0, pre-check=0",
     "Pragma"        => "no-cache",
-    "Expires"       => "Fri, 01 Jan 1970 00:00:00 GMT"
+    "Expires"       => "Thu, 01 Jan 1970 00:00:00 GMT"
   }.freeze
 
   class << self
